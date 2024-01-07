@@ -23,7 +23,7 @@ body{
 .header-area{
     width: 100%;
     height: 600px;
-    background-image: url('../img/baner-new-year.png');
+    background-image: url('./img/baner-new-year.png');
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
