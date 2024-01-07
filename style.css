@@ -368,3 +368,65 @@ body{
     transform: rotate(3deg);
     box-shadow: 3px 3px 4px rgb(0, 0, 0);
 }
+/*subscrib area style start*/
+
+#subscrib{
+    margin:30px 0;
+
+    
+}
+.subscrib-area{
+    padding:60px 0;
+    background-color:rgba(0, 255, 89, 0.05);
+    border-radius: 10px;
+}
+.subscrib-area span{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    color:#FFCE00;
+}
+.subscrib-area h2{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 5px;
+}
+.subscrib-area p{
+    width: 70%;
+    margin: auto;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.input-email{
+    width: 400px;
+    margin: auto;
+    display: flex;
+    padding: 10px 0;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.input-email input{
+    width:80%;
+    color: black;
+    font-size: 23px;
+    font-weight: 400;
+    border: none;
+    padding:4px;
+    outline: none;
+}
+.input-email button{
+    width:20%;
+    background-color: #F00;
+    outline: none;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    font-size: 16px;
+    cursor:pointer;
+    color: #fff;
+    padding:5px 0;
+}
