@@ -1,6 +1,60 @@
+/*link google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+
+
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+/* -----header-area style start -----*/
+.container{
+    width: 90%;
+    margin: auto;
+}
+#header{
+    width:100%;
+    padding:20px 0;
+}
+.header-area{
+    width: 100%;
+    height: 600px;
+    background-image: url('../img/baner-new-year.png');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.header-text{
+    width:50%;
+    height: 300px;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+.header-text h3{
+    color: #fff;
+    text-shadow: 2px 2px 3px red;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    margin:5px;
+}
+.header-text h1{
+    color: #48ff00;
+    text-align: center;
+    font-size: 62px;
+    font-weight: 900;
+    line-height: 95px;
+    margin:8px;
+    text-shadow: 3px 3px 4px #000000;
+    letter-spacing: 5px;
 }
