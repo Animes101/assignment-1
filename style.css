@@ -58,3 +58,100 @@ body{
     text-shadow: 3px 3px 4px #000000;
     letter-spacing: 5px;
 }
+
+/*holyday style start*/
+#holyday{
+    padding:10px 0;
+}
+.holyday-area>h1{
+    color: #F00;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin:5px;
+}
+.holyday-area>h1>span{
+    color:#000000;
+}
+.holyday-area p{
+    color: #F00;
+    text-align: center;
+    font-size: 24px; 
+    font-weight: 500;
+  
+}
+.holyday-area h3{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin:5px;
+}
+.holyday-area img{
+    width:80%;
+    display: block;
+    margin:auto;
+}
+
+/*midnight area style start*/
+#midnight-area{
+    padding:20px 0;
+}
+.midnight{
+    width:100%;
+    height: 500px;
+    margin:auto;
+    background-image: url('./img/Vectorrr.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.midnight-content{
+    padding-top: 36px;
+    width:90%;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.midnight-text{
+    width:45%;
+}
+.midnight-imag{
+    width:45%;
+}
+.midnight-text h1{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    margin:3px;
+    text-shadow: 2px 2px 3px rgb(255, 0, 0);
+}
+.midnight-text p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 22px;
+    font-weight: 400;
+    text-shadow: 2px 2px 2px rgb(0, 255, 26);
+}
+.midnight-text button{
+    color: #FFF;
+    padding:5px 10px;
+    border-radius: 4px;
+    background:black;
+    font-size: 20px;
+    outline: none;
+    transition: 2s;
+
+}
+.midnight-text button:hover{
+    background:#fff;
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+
+}
+.midnight-imag img{
+    width:50%;
+    display: block;
+    margin: auto;
+}
