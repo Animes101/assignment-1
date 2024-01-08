@@ -39,6 +39,34 @@ body{
     right:0;
     bottom:0;
     margin:auto;
+    animation-name: animate;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+/*animation css*/
+@keyframes animate{
+    0% {
+        border: 9px dotted rgb(55, 0, 255);
+        background-color: rgba(0, 255, 0,0.6);
+    }
+    25%{
+        border: 7px double rgb(255, 0, 0);
+        background-color: rgba(0, 0, 255, 0.6);
+    }
+    50%{
+        border:5px solid rgb(47, 0, 255);
+        background-color: rgba(174, 255, 0, 0.6);
+
+    }
+    75%{
+        border: 6px double rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    100%{
+        border: 5px dashed rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.6);
+
+    }
 }
 .header-text h3{
     color: #fff;
@@ -105,6 +133,8 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: green;
+    border: 12px solid black;
 }
 .midnight-content{
     padding-top: 36px;
@@ -122,14 +152,32 @@ body{
     width:45%;
 }
 .midnight-text h1{
-    color: #FFF;
     font-size: 64px;
     font-weight: 900;
     margin:3px;
     text-shadow: 2px 2px 3px rgb(255, 0, 0);
+    animation: color-change 2s infinite;
+}
+@keyframes color-change{
+    0%{
+        color:#000000;
+    
+    }
+    20%{
+        color:rgb(0, 0, 255);
+    }
+    60%{
+        color:rgb(255, 255, 255);
+    }
+    80%{
+        color:rgb(0, 255, 0)
+    }
+    100%{
+        color:#ff0000
+    }
 }
 .midnight-text p{
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.8);
     font-size: 22px;
     font-weight: 400;
     text-shadow: 2px 2px 2px rgb(0, 255, 26);
@@ -154,6 +202,19 @@ body{
     width:50%;
     display: block;
     margin: auto;
+    animation: year-move 1s infinite;
+}
+/*year move animation style*/
+@keyframes year-move{
+    0%{
+        margin-top: 30px 0;
+    }
+    50%{
+        margin-bottom: 30px 0;
+    }
+    100%{
+        margin-top:30px;
+    }
 }
 /*hotel area style start*/
 #hotel{
@@ -328,7 +389,17 @@ body{
     height: 200px;
     position: absolute;
     bottom: 205px;
-    right:287px;
+    right:215px;
+}
+.sale-discunt-img img{
+    width:100%;
+    animation: rotate 3s infinite;
+}
+@keyframes rotate{
+    50%{
+        transform: rotate(360deg);
+    }
+
 }
 
 /*protfolio area style start*/
